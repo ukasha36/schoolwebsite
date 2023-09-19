@@ -1,0 +1,504 @@
+.main-about{
+    width: 100%;
+    height: 100vh;
+    background-color: #eff2f7;
+    display: flex;
+    justify-content: center;
+    font-family: 'Muli', sans-serif;
+}
+.about-details{
+    width: 80%;
+    height: 100%;
+display: flex;
+justify-content: center;
+background-color: white;
+}
+.about-pic{
+    width: 50%;
+    height: 100%;
+}
+.about-pic > img{
+    width: 90%;
+    height: 80%;
+    object-fit: contain;
+}
+.about-info{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.about-info > h4{
+    color: #0c5adb;
+    font-weight: 600;
+    letter-spacing: 3px;
+
+}
+.about-info > h2 > span{
+    color: #0c5adb; 
+   
+}
+.about-info > h2 {
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+}
+.about-info > p{
+ 
+ color: #616161; 
+ margin-bottom: 1rem; 
+}
+.about-progress{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.about-progress > .web-dev > h3{
+    font-weight: 500;
+}
+.about-progress > .web-design > h3{
+    font-weight: 500;
+}
+.about-progress > .graphic > h3{
+    font-weight: 500;
+}
+.about-progress > .marketing > h3{
+    font-weight: 500;
+}
+.about-progress > .content > h3{
+    font-weight: 500;
+}
+.about-per{
+    height: 5px;
+    width: 30rem;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    background-color: #eff2f7;
+}
+ .wb{
+
+    height: 2px;
+    border-radius: 70px;
+    border: 2px solid transparent;
+    background-color: #0c5adb;;
+    animation-name: wb;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+    }
+ @keyframes wb{
+  from{
+          width: 1px;
+      }
+       to{
+           width: 450px;
+       }
+    }
+ .gd{
+
+    height: 2px;
+    border-radius: 70px;
+    border: 2px solid transparent;
+    background-color: #0c5adb;;
+    animation-name: gd;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+    }
+ @keyframes gd{
+  from{
+          width: 1px;
+      }
+       to{
+           width: 420px;
+       }
+    }
+ .mk{
+
+    height: 2px;
+    border-radius: 70px;
+    border: 2px solid transparent;
+    background-color: #0c5adb;;
+    animation-name: mk;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+    }
+ @keyframes mk{
+  from{
+          width: 1px;
+      }
+       to{
+           width: 430px;
+       }
+    }
+ .cw{
+
+    height: 2px;
+    border-radius: 70px;
+    border: 2px solid transparent;
+    background-color: #0c5adb;;
+    animation-name: cw;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+    }
+ @keyframes cw{
+  from{
+          width: 1px;
+      }
+       to{
+           width: 390px;
+       }
+    }
+ .wd{
+
+    height: 2px;
+    border-radius: 70px;
+    border: 2px solid transparent;
+    background-color: #0c5adb;;
+    animation-name: wd;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+    }
+ @keyframes wd{
+  from{
+          width: 1px;
+      }
+       to{
+           width: 410px;
+       }
+    }
+    @media only screen and (max-width: 690px)   {
+        .main-about{
+            width: 100%;
+            height: 140vh
+        } 
+        .about-details{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content:  flex-start;
+            flex-direction: column;
+        }
+        .about-pic {
+            width: 100%;
+            height: 60vh;
+        }
+        .about-pic > img {
+            width: 100%;
+            height: 95%;
+            object-fit: contain;
+        }
+        .about-info {
+         
+            width: 100%;
+            height: 70vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+        }
+        .about-info > h2 {
+            font-size: 1.7rem;
+            margin-bottom: 0.4rem;
+        }
+        .about-per{
+            height: 4px;
+            margin-left: 0.6rem;
+            width: 19rem;
+            border: 1px solid transparent;
+            border-radius: 7px;
+            background-color: #eff2f7;
+        }
+        .web-dev{
+            margin-bottom: 0.9rem;
+        }
+        .graphic{
+            margin-bottom: 0.9rem;
+        }
+        .marketing{
+            margin-bottom: 0.9rem;
+        }
+        .content{
+            margin-bottom: 0.9rem;
+        }
+        .web-design{
+            margin-bottom: 0.9rem;
+        }
+        .about-progress > .web-dev > h3{
+          margin-left: 0.6rem;
+ 
+            color: #616161;
+            font-family: 'Muli', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .about-progress > .web-design > h3{
+            margin-left: 0.6rem;
+ 
+            color: #616161;
+            font-family: 'Muli', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .about-progress > .graphic > h3{
+            margin-left: 0.6rem;
+ 
+            color: #616161;
+            font-family: 'Muli', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .about-progress > .marketing > h3{
+            margin-left: 0.6rem;
+ 
+            color: #616161;
+            font-family: 'Muli', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+        .about-progress > .content > h3{
+            margin-left: 0.6rem;
+ 
+            color: #616161;
+            font-family: 'Muli', sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 18px;
+            line-height: 1.5;
+      
+        }
+
+        .wb{
+
+            height: 2px;
+            border-radius: 70px;
+            border: 2px solid transparent;
+            background-color: #0c5adb;;
+            animation-name: wb;
+            animation-duration: 0.9s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            
+            }
+         @keyframes wb{
+          from{
+                  width: 1px;
+              }
+               to{
+                   width: 280px;
+               }
+            }
+
+            .gd{
+
+                height: 2px;
+                border-radius: 70px;
+                border: 2px solid transparent;
+                background-color: #0c5adb;;
+                animation-name: gd;
+                animation-duration: 0.9s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+                
+                }
+             @keyframes gd{
+              from{
+                      width: 1px;
+                  }
+                   to{
+                       width: 270px;
+                   }
+                }
+
+            .mk{
+
+                height: 2px;
+                border-radius: 70px;
+                border: 2px solid transparent;
+                background-color: #0c5adb;;
+                animation-name: gd;
+                animation-duration: 0.9s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+                
+                }
+             @keyframes mk{
+              from{
+                      width: 1px;
+                  }
+                   to{
+                       width: 320px;
+                   }
+                }
+            .cw{
+
+                height: 2px;
+                border-radius: 70px;
+                border: 2px solid transparent;
+                background-color: #0c5adb;;
+                animation-name: cw;
+                animation-duration: 0.9s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
+                
+                }
+             @keyframes cw{
+              from{
+                      width: 1px;
+                  }
+                   to{
+                       width: 260px;
+                   }
+                }
+             @keyframes wd{
+              from{
+                      width: 1px;
+                  }
+                   to{
+                       width: 270px;
+                   }
+                }
+
+    
+    }
+    @media only screen and (max-width: 990px)and (min-width: 690px)   {
+        .main-about {
+            width: 100%;
+            height: 120vh;
+            background-color: #eff2f7;
+            display: flex;
+            justify-content: center;
+        }
+       
+       
+        .about-details {
+            flex-direction: column;
+       
+        }
+        .about-pic {
+            width: 100%;
+            height: 50%;
+        }
+        .about-pic > img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .about-info {
+            width: 100%;
+            height: 90%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .about-info > h2 {
+            font-size: 3rem;
+            margin-bottom: 0.4rem;
+        }
+        .about-info > p {
+            color: #616161;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+            text-align: center;
+        }
+        .about-info > p {
+            color: #616161;
+            margin-bottom: 1rem;
+            font-size: 1.4rem;
+            text-align: center;
+            margin: 0.9rem;
+        }
+        .about-progress > .web-dev > h3 {
+            font-weight: 500;
+            font-size: 1.6rem;
+            margin-left: 1rem;
+        }
+        .about-progress > .graphic > h3 {
+            font-weight: 500;
+            font-size: 1.6rem;
+            margin-left: 1rem;
+        }
+        .about-progress > .marketing > h3 {
+            font-weight: 500;
+            margin-left: 1rem;
+            font-size: 1.6rem;
+        }
+        .about-progress > .content > h3 {
+            font-weight: 500;
+            font-size: 1.6rem;
+            margin-left: 1rem;
+        }
+        .about-progress > .web-design > h3 {
+            font-weight: 500;
+            margin-left: 1rem;
+            font-size: 1.6rem;
+        }
+        .about-per{
+            height: 4px;
+            margin-left: 1rem;
+            width: 33rem;
+            border: 1px solid transparent;
+            border-radius: 7px;
+            background-color: #eff2f7;
+        }
+        @keyframes wb{
+            from{
+                    width: 1px;
+                }
+                 to{
+                     width: 480px;
+                 }
+              }
+        @keyframes gd{
+            from{
+                    width: 1px;
+                }
+                 to{
+                     width: 440px;
+                 }
+              }
+        @keyframes mk{
+            from{
+                    width: 1px;
+                }
+                 to{
+                     width: 470px;
+                 }
+              }
+        @keyframes cw{
+            from{
+                    width: 1px;
+                }
+                 to{
+                     width: 440px;
+                 }
+              }
+        @keyframes wd{
+            from{
+                    width: 1px;
+                }
+                 to{
+                     width: 470px;
+                 }
+              }
+    }

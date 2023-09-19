@@ -1,0 +1,170 @@
+/* Common styles for both desktop and mobile */
+.main-nav {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  background-color:white;
+  position: relative;
+  font-family: 'Muli', sans-serif;
+}
+
+.logo {
+  width: 30%;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+.logo > h4 {
+color: black;
+font-family: 'Muli', sans-serif;
+cursor: pointer;
+}
+.menu-links {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.menu-links > ul {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.menu-links > ul  > li {
+  list-style: none;
+}
+
+.menu-links > ul > li > a {
+  text-decoration: none;
+  font-family: Quicksand,sans-serif;;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: black;
+  padding-bottom: 0.5rem;
+}
+.menu-links > ul > li > a:hover {
+ 
+transition: opacity 0.3s ease; 
+color: #0c5adb;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 990px) {
+  .icon {
+    display: none;
+  }
+
+ 
+
+  .logo {
+    width: 30%;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 460px) {
+ 
+
+  .logo {
+    width: 80%;
+    font-size: 1rem;
+  }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 990px)   {
+  .logo {
+    display: flex;
+    width: 80%;
+    font-size: 1rem;
+    align-items: center;
+  }
+
+  .menu-links {
+    display: none;
+    flex-direction: column; /* Stack menu items vertically on mobile */
+    position: absolute;
+    top: 10vh; /* Adjust the top position to avoid overlapping the logo */
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 1; /* Ensure the menu appears above other content */
+    opacity: 0; /* Hide the menu initially */
+    transition: opacity 0.3s ease; /* Add a transition for smooth show/hide */
+  }
+
+  .icon {
+    position: absolute;
+    font-size: 1.3rem;
+    color: black;
+    right: 10px;
+    top: 30px;
+    display: block; /* Show the mobile menu icon */
+    cursor: pointer;
+  }
+
+  .mobile-menu-link {
+    display: block; /* Show the mobile menu links container */
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 1; /* Show the menu when the icon is clicked */
+   
+  }
+
+  .mobile-menu-link > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 55px;
+    left: 0.5rem;
+    height: 45.5vh;
+ width: 89%;
+    transition: all .2s ease-in-out;
+    background-color:white;
+    opacity: 1; /* Show the menu when the icon is clicked */
+  }
+
+  .mobile-menu-link > ul > li {
+    list-style: none;
+    margin-bottom: 0.9rem;
+  }
+
+  .mobile-menu-link > ul > li > a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: black;
+    padding: 10px;
+  }
+
+  /* Add a hover effect for mobile menu items */
+  .mobile-menu-link > ul > li > a:hover {
+    background-color: #ddd;
+  }
+}
+@media only screen and (max-width: 990px) and (min-width: 590px) {
+  .mobile-menu-link > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 75px;
+    left: 0.5rem;
+    height: 45.5vh;
+    width: 89%;
+    transition: all .2s ease-in-out;
+    background-color: white;
+    opacity: 1;
+}
+
+
+}

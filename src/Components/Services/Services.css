@@ -1,0 +1,571 @@
+.main-service{
+    height: 40vh;
+    width: 100%;
+    background-color: #eff2f7;
+    font-family: 'Muli', sans-serif;
+}
+.services-info{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.services-info > h4{
+    color: #0c5adb; 
+    font-weight: 600;
+    letter-spacing: 3px;
+    margin-top: 1rem;
+}
+.services-info > h2 > span{
+    color: #0c5adb; 
+   
+}
+.services-info > h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.services-info > p{
+ text-align: center; 
+ color: #616161;  
+}
+@media only screen and (max-width: 690px)   {
+    .main-service{
+        height: 30vh;
+        width: 100%;
+    }
+    .services-info{
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .services-info > h4 {
+        margin-bottom: 0.4rem;
+    }
+    .services-info > h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.6rem;
+    }
+    .services-info > p {
+        text-align: center;
+        color: #616161;
+        font-size: 0.9rem;
+    }
+
+}
+
+
+ 
+/* Services types  */
+.services-types{
+    width: 100%;
+    height: 100vh;
+    background-color: #eff2f7;
+}
+.services-1{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.services-types-1{
+    height: 90%;
+    background: #fff;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 10px 50px rgba(158,158,158,.25);
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+.services-types-1:hover{
+   border-color: #0c5adb;
+}
+.services-types-1 > i{
+    color: #fff;
+    background: #0c5adb;
+    border-radius: 100%;
+    width: 69px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+.services-types-1 > h4{
+ 
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+.services-types-1 > p{
+   text-align: center;
+   margin-bottom: 0.5rem;
+   font-size: 0.9rem;
+   color: #616161;
+}
+ 
+.services-types-2{
+    height: 90%;
+    background: #fff;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 10px 50px rgba(158,158,158,.25);
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+.services-types-2:hover{
+    border-color: #0c5adb;
+ }
+.services-types-2 > i{
+    color: #fff;
+    background: #0c5adb;
+    border-radius: 100%;
+    width: 69px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+.services-types-2 > h4{
+ 
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+.services-types-2 > p{
+   text-align: center;
+   margin-bottom: 0.5rem;
+   font-size: 0.9rem;
+   color: #616161;
+}
+/* type -- 3  */
+.services-types-3{
+    height: 90%;
+    background: #fff;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 10px 50px rgba(158,158,158,.25);
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+.services-types-3:hover{
+    border-color: #0c5adb;
+ }
+.services-types-3 > i{
+    color: #fff;
+    background: #0c5adb;
+    border-radius: 100%;
+    width: 69px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+.services-types-3 > h4{
+ 
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+.services-types-3 > p{
+   text-align: center;
+   margin-bottom: 0.5rem;
+   font-size: 0.9rem;
+   color: #616161;
+}
+@media only screen and (max-width: 690px)   {
+    .services-types{
+        width: 100%;
+        height: 150vh;
+    }
+    
+    
+    .services-1 {
+        height: 75vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 1rem;
+    }
+    .services-types-1 {
+        height: 30%;
+        background: #fff;
+     width: 90%;
+     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    }
+    .services-types-1 > i {
+        color: #fff;
+        background: #0c5adb;
+        border-radius: 100%;
+        width: 40px;
+    height: 40px;
+    line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 0.5rem;
+    }
+    .services-types-1 > h4 {
+        font-family: 'Muli', sans-serif;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .services-types-2 {
+        height: 30%;
+        background: #fff;
+     width: 90%;
+     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    }
+    .services-types-2 > i {
+        color: #fff;
+        background: #0c5adb;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 0.5rem;
+    }
+    .services-types-2 > h4 {
+        font-family: 'Muli', sans-serif;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .services-types-3 {
+        height: 30%;
+        background: #fff;
+     width: 90%;
+     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    }
+    .services-types-3 > i {
+        color: #fff;
+        background: #0c5adb;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 0.5rem;
+    }
+    .services-types-3 > h4 {
+        font-family: 'Muli', sans-serif;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+}
+
+
+/* Services -- 2 */
+.services-2{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.services-types2-1{
+    height: 90%;
+    background: #fff;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 10px 50px rgba(158,158,158,.25);
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+.services-types2-1:hover{
+    border-color: #0c5adb;
+ }
+.services-types2-1 > i{
+    color: #fff;
+    background: #0c5adb;
+    border-radius: 100%;
+    width: 69px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+.services-types2-1 > h4{
+ 
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+.services-types2-1 > p{
+   text-align: center;
+   margin-bottom: 0.5rem;
+   font-size: 0.9rem;
+   color: #616161;
+}
+
+.services-types2-2{
+    height: 90%;
+    background: #fff;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 10px 50px rgba(158,158,158,.25);
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+.services-types2-2:hover{
+    border-color: #0c5adb;
+ }
+.services-types2-2 > i{
+    color: #fff;
+    background: #0c5adb;
+    border-radius: 100%;
+    width: 69px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+.services-types2-2 > h4{
+ 
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+.services-types2-2 > p{
+   text-align: center;
+   margin-bottom: 0.5rem;
+   font-size: 0.9rem;
+   color: #616161;
+}
+/* type -- 3  */
+.services-types2-3{
+    height: 90%;
+    background: #fff;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 10px 50px rgba(158,158,158,.25);
+    border: 2px solid transparent;
+    border-radius: 7px;
+}
+.services-types2-3 > i{
+    color: #fff;
+    background: #0c5adb;
+    border-radius: 100%;
+    width: 69px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+}
+.services-types2-3:hover{
+    border-color: #0c5adb;
+ }
+.services-types2-3 > h4{
+ 
+    font-family: 'Muli', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+.services-types2-3 > p{
+   text-align: center;
+   margin-bottom: 0.5rem;
+   font-size: 0.9rem;
+   color: #616161;
+}
+@media only screen and (max-width: 690px)   {
+    .services-2 {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+       align-items: center;
+        flex-direction: column;
+    }
+    .services-types2-1 {
+        height: 30%;
+        background: #fff;
+     width: 90%;
+     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    }
+    .services-types2-1 > i {
+        color: #fff;
+        background: #0c5adb;
+        border-radius: 100%;
+        width: 40px;
+    height: 40px;
+    line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 0.5rem;
+    }
+    .services-types2-1 > h4 {
+        font-family: 'Muli', sans-serif;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .services-types2-2 {
+        height: 30%;
+        background: #fff;
+     width: 90%;
+     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    }
+    .services-types2-2 > i {
+        color: #fff;
+        background: #0c5adb;
+        border-radius: 100%;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 0.5rem;
+    }
+    .services-types2-2 > h4 {
+        font-family: 'Muli', sans-serif;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+    .services-types2-3 {
+        height: 30%;
+        background: #fff;
+     width: 90%;
+     padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    }
+    .services-types2-3 > i {
+        color: #fff;
+        background: #0c5adb;
+        border-radius: 100%;
+        width: 40px;
+    height: 40px;
+    line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+        margin-bottom: 0.5rem;
+    }
+    .services-types2-3 > h4 {
+        font-family: 'Muli', sans-serif;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (max-width: 1030px)and (min-width: 690px)   {
+    .services-2 {
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .services-types {
+        width: 100%;
+        height: 140vh;
+        background-color: #eff2f7;
+    }
+    .services-1 {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        margin-bottom: 0.4rem;
+    }
+    .services-2 {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+.services-types-1 {
+    height: 30%;
+    background: #fff;
+    width: 40%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.services-types-2 {
+    height: 30%;
+    background: #fff;
+    width: 40%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.services-types-3 {
+    height: 30%;
+    background: #fff;
+    width: 40%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.services-types2-1 {
+    height: 30%;
+    background: #fff;
+    width: 40%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+   
+}
+.services-types2-2 {
+    height: 30%;
+    background: #fff;
+    width: 40%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+.services-types2-3 {
+    height: 30%;
+    background: #fff;
+    width: 40%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+   
+}
+}
