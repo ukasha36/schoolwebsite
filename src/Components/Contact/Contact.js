@@ -1,39 +1,111 @@
-import React from 'react'
+import React from "react";
+import { useState } from "react";
 
- const Contact = () => {
+const Contact = () => {
+  const [user, setuser] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  let name, value;
+
+  const getUserdata = (event) => {
+    name = event.target.name;
+    value = event.target.value;
+
+    setuser({ ...user, [name]: value });
+  };
+
+  const postData = async (e) => {
+    e.preventDefault();
+
+    const { name, email, message } = user;
+    const response = await fetch(
+      "https://innovativetech-f47e0-default-rtdb.firebaseio.com/innovativetechform.json",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name,
+          email,
+          message,
+        }),
+      }
+    );
+    if(response){
+      setuser({
+        name: "",
+        email: "",
+        message: "",
+      });
+        alert("Your form has been submitted")
+    }
+  };
+
   return (
-  <>
- <div class="contact-main" >
- <div class="contact-title">
-      <h2><i class="fa-regular fa-address-card"></i>CONTACT US</h2>
-    </div>
-    <div class="contact">
-      <div class="contact-form">
-      <form>
-          <label for="name">Name : </label>
-          <input type="text" name="name" id="name" required/>
-          <label for="name">Email address : </label>
-          <input type="email" name="email" id="email" required/>
-          <label for="name">Message : </label>
-          <textarea name="message" id="message" cols="20" rows="7" required></textarea>
-          <button   onclick="SendMail()">Submit</button>
-          </form>
+    <>
+      <div className="contact-main">
+        <div className="contact-title">
+          <h2>
+            <i className="fa-regular fa-address-card"></i>CONTACT US
+          </h2>
+        </div>
+        <div className="contact">
+          <div className="contact-form">
+            <form method="POST ">
+              <label for="name">Name : </label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                autoComplete="off"
+                value={user.name}
+                onChange={getUserdata}
+              />
+              <label for="name">Email address : </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                required
+                autoComplete="off"
+                value={user.email}
+                onChange={getUserdata}
+              />
+              <label for="name">Message : </label>
+              <textarea
+                name="message"
+                id="message"
+                cols="20"
+                rows="7"
+                required
+                value={user.message}
+                onChange={getUserdata}
+              ></textarea>
+              <button onClick={postData}>Submit</button>
+            </form>
+          </div>
+          <div className="contact-info">
+            <div className="address">
+              <i className="fa-solid fa-house"></i>
+              <p>155 Market St #101, Paterson, NJ 07505, United States</p>
+            </div>
+            <div className="call">
+              <i className="fa-solid fa-phone"></i>
+              <p>+1 202 2020 200</p>
+            </div>
+            <div className="email">
+              <i className="fa-solid fa-message"></i>
+              <p>@info@mydomain.com</p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="contact-info">
-        <div class="address"><i class="fa-solid fa-house"></i>
-          <p>155 Market St #101, Paterson, NJ 07505, United States</p>
-        </div>
-        <div class="call"><i class="fa-solid fa-phone"></i>
-          <p>+1 202 2020 200</p>
-        </div>
-        <div class="email"><i class="fa-solid fa-message"></i>
-          <p>@info@mydomain.com</p>
-        </div>
-      </div>
-    </div>
-
-     </div>
-  </>
-  )
-}
+    </>
+  );
+};
 export default Contact;
