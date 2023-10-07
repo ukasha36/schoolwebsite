@@ -96,11 +96,11 @@ const Contact = () => {
             </div>
             <div className="call">
               <i className="fa-solid fa-phone"></i>
-              <p>+1 202 2020 200</p>
+              <a href="tel:03320356431"><p>03320356431</p></a>
             </div>
             <div className="email">
               <i className="fa-solid fa-message"></i>
-              <p>@info@mydomain.com</p>
+              <a href="mailto:innovativetechrgs@gmail.com"><p>innovativetechrgs@gmail.com</p></a>
             </div>
           </div>
         </div>

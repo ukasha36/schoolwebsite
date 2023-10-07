@@ -25,12 +25,12 @@ import { Link } from "react-router-dom";
     <>
      <div>  <Navbar/></div>
      <div>  <Banner/></div>
-     <div>  <Services/></div>
-     <div>  <About/></div>
-     <div>  <Clients/></div>
-     <div>  <Team/></div>
-    <div><Chooseus/></div>
-    <div><Contact/></div>
+     <div id='service'>  <Services/></div>
+     <div id='about'>  <About/></div>
+     <div id='clients'>  <Clients/></div>
+     <div id='team'>  <Team/></div>
+    <div id='chooseus'><Chooseus/></div>
+    <div id='contact'><Contact/></div>
     <div> <Footer/></div>
 
      

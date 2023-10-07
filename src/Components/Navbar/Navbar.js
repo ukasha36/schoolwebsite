@@ -1,30 +1,36 @@
-import React from 'react'
-import { useState } from 'react'
- 
+import React from "react";
+import { useState } from "react";
+import { scrollTo } from "../scrollTo";
+import companylogo from "./companylogo.jpg"
 
-export  const Navbar = () => {
-          const [shownavbar, setshownavbar] = useState(false)
+export const Navbar = () => {
+  const [shownavbar, setshownavbar] = useState(false);
   return (
-   <>
-    <div className='main-nav'>
-    <div className='logo'>
-     <h4>Innovative Tech</h4>
-    </div>
-    <div  className={shownavbar ? " mobile-menu-link" : "menu-links " }>
-    <ul>
-     <li><a href=' '>Home</a></li> 
-      <li><a href=' '>About</a></li>
-      <li><a href=''>Services</a></li>
-      <li><a href=''>Team</a></li>
-      <li><a href=''>Contact</a></li>
-    </ul>
-    </div>
-    <div>
-    <i class="fa-solid fa-bars icon"  onClick={() => setshownavbar(!shownavbar)}  > </i>
-    </div>
-    </div>
- 
-   </>
-  )
-}
- 
+    <>
+      <div className="main-nav">
+        <div className="logo">
+        <img src={companylogo} alt="Logo"/>
+        </div>
+        <div className={shownavbar ? " mobile-menu-link" : "menu-links "}>
+          <ul>
+            <li>Home</li>
+            <li onClick={() => scrollTo("about")}>About</li>
+            <li onClick={() => scrollTo("service")}>Services</li>
+            <li onClick={()=>scrollTo("team")}>
+              Team
+            </li>
+            <li onClick={() => scrollTo("contact")}>Contact</li>
+          </ul>
+        </div>
+        <div>
+          <i
+            class="fa-solid fa-bars icon"
+            onClick={() => setshownavbar(!shownavbar)}
+          >
+            {" "}
+          </i>
+        </div>
+      </div>
+    </>
+  );
+};

@@ -24,13 +24,13 @@ import member4 from "./copy.jpg";
         <div className='member-2'>
       <img src={member3}  alt='member1'/>
       <h4>Azizullah </h4>
-      <h5>Sales Executive</h5>
+      <h5> Artist </h5>
       
         </div>
         <div className='member-3'>
       <img src={member2}  alt='member1'/>
       <h4>Faizan </h4>
-      <h5>Sales Executive</h5>
+      <h5> Content Writer </h5>
       
         </div>
         <div className='member-4'>

@@ -56,6 +56,14 @@ padding-left: 4rem;
     cursor: pointer;
  
 }
+.banner-info > button:hover
+{
+  background-color: #fff;
+  color: #0c5adb;
+  box-shadow: 9px 10px 79px 0px rgba(133,122,122,0.75);
+-webkit-box-shadow: 9px 10px 79px 0px rgba(133,122,122,0.75);
+-moz-box-shadow: 9px 10px 79px 0px rgba(133,122,122,0.75);
+}
  
 .banner-pic {
  width: 40%;

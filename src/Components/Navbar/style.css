@@ -10,15 +10,16 @@
 
 .logo {
   width: 30%;
+  height: 100%;
   font-size: 1.1rem;
   display: flex;
   align-items: center;
   margin-left: 1rem;
 }
-.logo > h4 {
-color: black;
-font-family: 'Muli', sans-serif;
-cursor: pointer;
+.logo > img  {
+  width: 40%;
+  height: 80%;
+  object-fit: cover;
 }
 .menu-links {
   width: 60%;
@@ -36,17 +37,17 @@ cursor: pointer;
 
 .menu-links > ul  > li {
   list-style: none;
-}
-
-.menu-links > ul > li > a {
   text-decoration: none;
   font-family: Quicksand,sans-serif;;
   font-size: 1.2rem;
   font-weight: 300;
   color: black;
   padding-bottom: 0.5rem;
+  cursor: pointer;
 }
-.menu-links > ul > li > a:hover {
+
+ 
+.menu-links > ul > li:hover {
  
 transition: opacity 0.3s ease; 
 color: #0c5adb;
@@ -66,6 +67,7 @@ color: #0c5adb;
     display: flex;
     align-items: center;
   }
+  
 }
 @media only screen and (max-width: 460px) {
  
@@ -165,6 +167,15 @@ color: #0c5adb;
     background-color: white;
     opacity: 1;
 }
-
-
+.logo {
+  display: flex;
+  width: 30%;
+  font-size: 1rem;
+  align-items: center;
+}
+.logo > img  {
+  width: 60%;
+  height: 70%;
+  object-fit: cover;
+}
 }
