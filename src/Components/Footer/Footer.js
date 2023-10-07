@@ -59,7 +59,7 @@ import React from 'react'
           <div className='title'>
         <h2>
 Email Us</h2>
-        <p>example@gmail.com</p>
+        <p>innovativetechrgs@gmail.com</p>
       </div>
       </div>
 
@@ -68,7 +68,7 @@ Email Us</h2>
           <div className='title'>
         <h2>
 Phone Us</h2>
-        <p>+012 (345) 678 99</p>
+        <p>03320356431</p>
       </div>
       </div>
         </div>
