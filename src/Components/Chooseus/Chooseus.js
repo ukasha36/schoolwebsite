@@ -10,10 +10,10 @@ const Chooseus = () => {
    <>
     <div className="main-choose">
     <div className="choose-details">
-    <div className="choose-pic" data-aos="fade-right">
+    <div className="choose-pic">
     <img src={logo} alt="logo" />
           </div>
-          <div className="choose-info" data-aos="fade-left">
+          <div className="choose-info">
             <h4>WHY CHOOSE US</h4>
             <h2>
               We Deal With Aspects <br />

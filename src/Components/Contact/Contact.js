@@ -59,7 +59,7 @@ const Contact = () => {
           </h2>
         </div>
         <div className="contact">
-          <div className="contact-form" data-aos="fade-down">
+          <div className="contact-form" data-aos="zoom-out-right">
             <form method="POST ">
               <label for="name">Name : </label>
               <input
@@ -94,7 +94,7 @@ const Contact = () => {
               <button onClick={postData}>Submit</button>
             </form>
           </div>
-          <div className="contact-info" data-aos="fade-down" >
+          <div className="contact-info" data-aos="zoom-out-right">
             <div className="address">
               <i className="fa-solid fa-house"></i>
               <p>155 Market St #101, Paterson, NJ 07505, United States</p>
