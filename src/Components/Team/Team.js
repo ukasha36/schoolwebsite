@@ -1,20 +1,24 @@
 import React from 'react';
-import member1 from "./person_2.jpg.webp";
+import member1 from "./shaheer.jpg";
 import member2 from "./person_3.jpg.webp";
-import member3 from "./person_4.jpg.webp";
-import member4 from "./copy.jpg";
+import member3 from "./aziz.jpg";
+import member4 from "./ukasha.jpg";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
  const Team = () => {
   return (
     <>
         <div className='main-team'>
-            <div className='team-title'>
+        <div className='team-title' data-aos="fade-down" >
             <h4>TEAM MEMBER</h4>
           <h3>
           Our Awesome Creative <br/>Team Member
           </h3>
             </div>
-        <div className='team-member'>
+        <div className='team-member' data-aos="fade-right">
         <div className='member-1'>
       <img src={member1}  alt='member1'/>
       <h4>Shaheer Abbas</h4>

@@ -1,4 +1,8 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const Services = () => {
   return (
@@ -18,14 +22,14 @@ const Services = () => {
         </div>
         <div className="services-types">
         <div className="services-1">
-          <div className="services-types-1">
+        <div className="services-types-1" data-aos="flip-right">
             <i class="fa-solid fa-chart-line"></i>
             <h4>Marketing Strategy</h4>
             <p>
             We craft data-driven marketing strategies to drive growth and brand success in the digital landscape.
             </p>
           </div>
-          <div className="services-types-2">
+          <div className="services-types-2" data-aos="flip-right">
           <i class="fa-solid fa-code"></i>
             <h4>Web Development</h4>
             <p>
@@ -33,7 +37,7 @@ const Services = () => {
             websites tailored to your goals.
             </p>
           </div>
-          <div className="services-types-3">
+          <div className="services-types-3" data-aos="flip-right">
           <i class="fa-solid fa-layer-group"></i>
             <h4>UI & UX Design</h4>
             <p>
@@ -46,7 +50,7 @@ const Services = () => {
         {/* Services -- 2 */}
 
         <div className="services-2">
-          <div className="services-types2-1">
+          <div className="services-types2-1" data-aos="flip-right">
             <i class="fa-solid fa-chart-line"></i>
             <h4>Graphic Design</h4>
             <p>
@@ -54,14 +58,14 @@ const Services = () => {
               visuals through expert graphic design.
             </p>
           </div>
-          <div className="services-types2-2">
+          <div className="services-types2-2" data-aos="flip-right">
           <i class="fa-solid fa-code"></i>
             <h4>Bugs & Error Fixing</h4>
             <p>
             We swiftly identify and resolve software issues, optimizing your digital experience
             </p>
           </div>
-          <div className="services-types2-3">
+          <div className="services-types2-3" data-aos="flip-right" >
           <i class="fa-solid fa-layer-group"></i>
             <h4>Content Writing </h4>
             <p>

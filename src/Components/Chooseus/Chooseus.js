@@ -1,15 +1,19 @@
 import React from 'react'
 import logo from "./about-img-new.jpg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const Chooseus = () => {
   return (
    <>
     <div className="main-choose">
     <div className="choose-details">
-    <div className="choose-pic">
+    <div className="choose-pic" data-aos="fade-right">
     <img src={logo} alt="logo" />
           </div>
-          <div className="choose-info">
+          <div className="choose-info" data-aos="fade-left">
             <h4>WHY CHOOSE US</h4>
             <h2>
               We Deal With Aspects <br />

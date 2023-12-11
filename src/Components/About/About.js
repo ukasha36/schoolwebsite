@@ -1,15 +1,19 @@
 import React from "react";
 import logo from "./p5.jpg";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
 
 const About = () => {
   return (
     <>
       <div className="main-about">
         <div className="about-details">
-          <div className="about-pic">
+        <div className="about-pic" >
             <img src={logo} alt="logo" />
           </div>
-          <div className="about-info">
+          <div className="about-info"  >
             <h4>ABOUT US</h4>
             <h2>
               We Deal With Aspects <br />
@@ -20,7 +24,7 @@ const About = () => {
               transform your software aspirations into reality.
             </p>
             <div className="about-progress">
-            <div className="web-dev">
+            <div className="web-dev ">
               <h3>Web Development</h3>
               <div className="about-per">
                 <div className="wb"></div>

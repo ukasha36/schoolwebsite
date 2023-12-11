@@ -1,5 +1,10 @@
 import React from "react";
 import { useState } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+AOS.init();
+
 
 const Contact = () => {
   const [user, setuser] = useState({
@@ -54,7 +59,7 @@ const Contact = () => {
           </h2>
         </div>
         <div className="contact">
-          <div className="contact-form">
+          <div className="contact-form" data-aos="fade-down">
             <form method="POST ">
               <label for="name">Name : </label>
               <input
@@ -89,7 +94,7 @@ const Contact = () => {
               <button onClick={postData}>Submit</button>
             </form>
           </div>
-          <div className="contact-info">
+          <div className="contact-info" data-aos="fade-down" >
             <div className="address">
               <i className="fa-solid fa-house"></i>
               <p>155 Market St #101, Paterson, NJ 07505, United States</p>

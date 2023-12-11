@@ -133,6 +133,7 @@ color: #0c5adb;
     transition: all .2s ease-in-out;
     background-color:white;
     opacity: 1; /* Show the menu when the icon is clicked */
+    z-index: 1;
   }
 
   .mobile-menu-link > ul > li {
