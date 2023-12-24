@@ -1,6 +1,6 @@
 import React from 'react';
 import member1 from "./shaheer.jpg";
-import member2 from "./person_3.jpg.webp";
+import member2 from "./faizan.jpg";
 import member3 from "./aziz.jpg";
 import member4 from "./ukasha.jpg";
 
@@ -25,24 +25,25 @@ AOS.init();
       <h5>CEO</h5>
 
         </div>
+        <div className='member-4'>
+      <img src={member4}  alt='member1'/>
+      <h4> Muhammad Ukasha </h4>
+      <h5>Web Developer</h5>
+     
+        </div>
         <div className='member-2'>
       <img src={member3}  alt='member1'/>
-      <h4>Azizullah </h4>
+      <h4>Azizullah Naik </h4>
       <h5> Artist </h5>
       
         </div>
         <div className='member-3'>
       <img src={member2}  alt='member1'/>
-      <h4>Faizan </h4>
+      <h4> Faizan Khan </h4>
       <h5> Content Writer </h5>
       
         </div>
-        <div className='member-4'>
-      <img src={member4}  alt='member1'/>
-      <h4>Ukasha </h4>
-      <h5>Web Developer</h5>
-     
-        </div>
+  
         </div>
         </div>
     </>

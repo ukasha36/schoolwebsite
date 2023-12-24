@@ -24,21 +24,21 @@ const Chooseus = () => {
               transform your software aspirations into reality.
             </p>
             <div className='icon-1'>
-            <i class="fa-brands fa-google-play"></i>
+            <i class="fa-brands fa-google-play" data-aos="fade-down"></i>
             <div className='digi'>
             <h4>Digital Experience</h4>
             <p>Our firm is expert to create an efficient user interface that makes user interaction is lively.</p>
             </div>
             </div>
-            <div className='icon-2'>
-            <i class="fa-solid fa-tags"></i>
+            <div className='icon-2' >
+            <i class="fa-solid fa-tags" data-aos="fade-down"></i>
             <div className='plan'>
             <h4>Business Planning</h4>
             <p>Develop a strategic business plan for sustained software company growth and profitability.</p>
             </div>
             </div>
             <div className='icon-3'>
-            <i class="fa-solid fa-chart-line"></i>
+            <i class="fa-solid fa-chart-line" data-aos="fade-down"></i>
             <div className='stra'>
             <h4>Branding Strategy</h4>
             <p>Develop a client-centric branding strategy to enhance brand recognition, and  strong customer relationships</p>
