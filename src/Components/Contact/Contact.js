@@ -101,11 +101,11 @@ const Contact = () => {
             </div>
             <div className="call">
               <i className="fa-solid fa-phone"></i>
-              <a href="tel:03320356431"><p>03320356431</p></a>
+              <a href="tel:03320356431"><p>0333333301</p></a>
             </div>
             <div className="email">
               <i className="fa-solid fa-message"></i>
-              <a href="mailto:innovativetechrgs@gmail.com"><p>innovativetechrgs@gmail.com</p></a>
+              <a href="mailto:innovativetechrgs@gmail.com"><p>tech@gmail.com</p></a>
             </div>
           </div>
         </div>

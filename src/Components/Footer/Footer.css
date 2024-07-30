@@ -29,7 +29,7 @@
     color: white;
 }
 .footer-about > h2 {
-    color: white;
+    color: #c31229;
 }
 .footer-about > h4 {
     color: white;
@@ -48,7 +48,7 @@
     width: 38px;
     height: 38px;
     line-height: 40px;
-    background: #3D65DE;
+    background: #c31229;
     text-align: center;
     border-radius: 10%;
 }
@@ -61,7 +61,7 @@
     justify-content: center;
 }
 .footer-pages > h2 {
-    color: white;
+    color: #c31229;
     margin-bottom: 1.1rem;
 }
 .pages-ul {
@@ -95,7 +95,7 @@
 }
  
 .footer-resources > h2 {
-    color: white;
+    color: #c31229;
     margin-bottom: 1.1rem;
 }
 .resources-ul {
@@ -121,6 +121,9 @@
     flex-direction: column;
     justify-content: center;
 }
+.footer-contact .heading > h2 {
+   color: #c31229;
+}
 .location{
     display: flex;
     align-items: center;
@@ -145,7 +148,7 @@
     width: 38px;
     height: 38px;
     line-height: 40px;
-    background: #3D65DE;
+    background: #c31229;
     text-align: center;
     border-radius: 50%;
 }
@@ -264,7 +267,7 @@
     width: 38px;
     height: 38px;
     line-height: 40px;
-    background: #3D65DE;
+    background: #c31229;
     text-align: center;
     border-radius: 50%;
     margin-bottom: 0.8rem;

@@ -1,0 +1,74 @@
+/* Portfolio Section */
+.main-portfolio {
+    width: 100%;
+    background-color: #eff2f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Muli', sans-serif;
+    padding: 5rem 0;
+  }
+  
+  .portfolio-heading {
+    font-size: 2.5rem;
+    color: #000;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .portfolio-details {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem; /* Increased gap for better spacing */
+  }
+  
+  .portfolio-item {
+    width: 30%; /* Adjusted width for three items in a row */
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    text-align: center; /* Centered the text */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition for hover effect */
+  }
+  
+  .portfolio-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Enhanced shadow on hover */
+  }
+  
+  .portfolio-item img {
+    width: auto;
+    height: 250px; /* Increased height of the image */
+    max-width: 100%; /* Maintain aspect ratio */
+    object-fit: contain; /* Ensure the image does not stretch */
+    margin-top: 1rem; /* Add some margin at the top */
+  }
+  
+  .portfolio-item h3 {
+    color: #c31229;
+    font-weight: 600;
+    margin: 1rem;
+  }
+  
+  /* Responsive Styles */
+  @media only screen and (max-width: 690px) {
+    .portfolio-details {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .portfolio-item {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 990px) and (min-width: 690px) {
+    .portfolio-item {
+      width: 48%;
+    }
+  }
+  

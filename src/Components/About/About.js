@@ -31,25 +31,25 @@ const About = () => {
               </div>
               </div>
               <div className="graphic" data-aos="fade-right">
-              <h3>Graphic Design</h3>
+              <h3>App Development</h3>
               <div className="about-per">
                 <div className="gd"></div>
               </div>
               </div>
               <div className="marketing" data-aos="fade-right">
-              <h3>Digital Marketing</h3>
+              <h3>Artificial Intelligence</h3>
               <div className="about-per">
                 <div className="mk"></div>
               </div>
               </div>
               <div className="content" data-aos="fade-right">
-              <h3>Content Writing</h3>
+              <h3>Software Development</h3>
               <div className="about-per">
                 <div className="cw"></div>
               </div>
               </div>
               <div className="web-design" data-aos="fade-right">
-              <h3>Web Design</h3>
+              <h3>SEO</h3>
               <div className="about-per">
                 <div className="wd"></div>
               </div>

@@ -24,7 +24,7 @@ const Services = () => {
         <div className="services-1">
         <div className="services-types-1" data-aos="flip-right">
             <i class="fa-solid fa-chart-line"></i>
-            <h4>Marketing Strategy</h4>
+            <h4>App Development</h4>
             <p>
             We craft data-driven marketing strategies to drive growth and brand success in the digital landscape.
             </p>
@@ -52,7 +52,7 @@ const Services = () => {
         <div className="services-2">
           <div className="services-types2-1" data-aos="flip-right">
             <i class="fa-solid fa-chart-line"></i>
-            <h4>Graphic Design</h4>
+            <h4>Software Development</h4>
             <p>
               Transforming concepts into captivating
               visuals through expert graphic design.
@@ -60,14 +60,14 @@ const Services = () => {
           </div>
           <div className="services-types2-2" data-aos="flip-right">
           <i class="fa-solid fa-code"></i>
-            <h4>Bugs & Error Fixing</h4>
+            <h4>Artificial Intelligence</h4>
             <p>
             We swiftly identify and resolve software issues, optimizing your digital experience
             </p>
           </div>
           <div className="services-types2-3" data-aos="flip-right" >
           <i class="fa-solid fa-layer-group"></i>
-            <h4>Content Writing </h4>
+            <h4>SEO </h4>
             <p>
             We create engaging, tailored content to boost your brand's visibility and credibility
             </p>

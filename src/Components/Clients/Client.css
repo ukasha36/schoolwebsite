@@ -12,7 +12,7 @@
     width: 100%;
     height: 100%;
     display: flex;
-    background-color: #0C5ADB4F;
+    background-color: #c3122a18;
 }
 .sec-1{
     display: flex;
@@ -25,7 +25,7 @@
 }
 .sec-1 > i{
     color: #fff;
-    background: #0c5adb;
+    background: #c31229;
     border-radius: 100%;
     width: 69px;
     height: 65px;
@@ -65,7 +65,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: transparent;
+        background-color: #c3122a18;
     }
 
     .sec-1 {
@@ -78,7 +78,7 @@
     }
     .sec-1 > i {
         color: #fff;
-        background: #0c5adb;
+        background: #c31229;
         border-radius: 100%;
         width: 62px;
         height: 62px;

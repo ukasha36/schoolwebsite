@@ -18,10 +18,12 @@
  .contact-title > h2 {
     font-family: 'Muli', sans-serif;
     font-weight: bold;
+    font-size: 32px;
+
  }
  .contact-title > h2 > i {
     margin-right: 1rem;
-    color: gray;
+    color: #000000;
  }
  .contact-form{
     width: 50%;
@@ -39,22 +41,22 @@
    
  }
  .contact-form > form > label {
-  color: gray;
+  color: #000000;
   font-family: 'Muli', sans-serif;
   margin-bottom: 0.4rem;
  }
  .contact-form > form >  input {
-  border-color: rgba(128, 128, 128, 0.308);
+  border-color: #c31229;
   font-family: 'Muli', sans-serif;
-  width: 50%;
-  border-width: 1px;
+  width: 60%;
+  border-width: 2px; 
   border-radius: 20px;
   padding: 0.5rem 1rem 0.5rem 1rem;
   margin-bottom: 1rem;
  }
  .contact-form > form >   textarea {
-  border-color: rgba(128, 128, 128, 0.308);
-  border-width: 1px;
+  border-color: #c31229;
+  border-width: 2px;
   border-radius: 10px;
   padding: 0.3rem 0.6rem;
  }
@@ -68,14 +70,14 @@
     font-weight: 700;
     letter-spacing: .1rem;
     text-transform: uppercase;
-    background-color: #0c5adb;
+    background-color: #c31229;
     color: #fff;
     border: 2px solid transparent;
  }
  .contact-form > form > button:hover
  {
    background-color: #fff;
-   color: #0c5adb;
+   color: #c31229;
    box-shadow: 9px 10px 79px 0px rgba(133,122,122,0.75);
  -webkit-box-shadow: 9px 10px 79px 0px rgba(133,122,122,0.75);
  -moz-box-shadow: 9px 10px 79px 0px rgba(133,122,122,0.75);
@@ -106,7 +108,7 @@
     font-size: 2rem;
     background: #fff;
        border-radius: 50%;
-color: #0c5adb;
+color: #c31229;
        padding: 0.8rem 0.8rem 0.8rem 0.8rem;
     border: 2px solid  rgba(128, 128, 128, 0.212);
  }
@@ -127,7 +129,7 @@ color: #0c5adb;
     font-size: 2rem;
     background: #fff;
        border-radius: 50%;
-       color: #0c5adb;
+       color: #c31229;
        padding: 0.8rem 0.8rem 0.8rem 0.8rem;
     border: 2px solid  rgba(128, 128, 128, 0.212);
  }
@@ -141,7 +143,7 @@ color: #0c5adb;
    color: black;
  }
  .call > a:hover{
-   color: #0c5bdbe0;
+   color: #000000;
  }
  .email{
     display: flex;
@@ -155,7 +157,7 @@ color: #0c5adb;
     text-align: center;
     font-size: 2rem;
     background: #fff;
-    color: #0c5adb;
+    color: #c31229;
        border-radius: 50%;
        padding: 0.8rem 0.8rem 0.8rem 0.8rem;
     border: 2px solid  rgba(128, 128, 128, 0.212);
@@ -169,7 +171,7 @@ color: #0c5adb;
    color: black;
  }
  .email > a:hover{
-   color:#0c5bdbe0;
+   color:#c31229;
  }
  @media only screen and (max-width:590px){
 
@@ -181,8 +183,8 @@ color: #0c5adb;
     }
     .contact-main {
         width: 100%;
-        height: 100vh;
-        display: flex;
+        height: 60rem;
+                display: flex;
         flex-direction: column;
     }
     .contact-form {
@@ -202,7 +204,7 @@ color: #0c5adb;
         font-weight: 700;
         letter-spacing: .1rem;
         text-transform: uppercase;
-        background-color: #ec1e64;
+        background-color: #c31229;
         color: #fff;
         border: 2px solid transparent;
     }
@@ -214,7 +216,7 @@ color: #0c5adb;
         align-items: flex-start;
     }
     .contact-form > form > input {
-        border-color: rgba(128, 128, 128, 0.308);
+        border-color: #c31229;
         width: 90%;
         border-width: 1px;
         border-radius: 20px;
@@ -240,7 +242,6 @@ color: #0c5adb;
         background: #fff;
         border-radius: 50%;
         padding: 0.6rem 0.6rem 0.6rem 0.6rem;
-        border: 2px solid rgba(128, 128, 128, 0.212);
     }
     .address > a > p {
       font-size: 1.1rem;
@@ -264,7 +265,7 @@ color: #0c5adb;
         font-weight: 700;
         letter-spacing: .1rem;
         text-transform: uppercase;
-        background-color: #0c5adb;
+        background-color: #c31229;
         color: #fff;
         border: 2px solid transparent;
     }
@@ -295,8 +296,8 @@ color: #0c5adb;
         /* font-family: "Poppins", sans-serif; */
         font-family: 'Muli', sans-serif;
         font-weight: bold;
-        font-size: 2rem;
-    }
+        font-size: 32px;
+      }
     .email {
       display: flex;
       align-items: flex-start;
