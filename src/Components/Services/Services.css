@@ -194,12 +194,14 @@
 @media only screen and (max-width: 690px)   {
     .services-types{
         width: 100%;
-        height: 150vh;
+       height: 90rem;
+        
+        
     }
     
     
     .services-1 {
-        height: 75vh;
+        height: 50%;
         width: 100%;
         display: flex;
         align-items: center;
@@ -411,7 +413,7 @@
 }
 @media only screen and (max-width: 690px)   {
     .services-2 {
-        height: 70vh;
+        height: 50%;
         width: 100%;
         display: flex;
        align-items: center;
