@@ -1,27 +1,42 @@
 import React from "react";
-import logo from "./man.png"
-import { scrollTo } from "../scrollTo";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import './Banner.css';
+import banner from './banner-logo.jpeg'
+import { SquarePen , UsersRound , MapPin , Globe , CirclePlay} from 'lucide-react';
 
-AOS.init();
-
-
- const Banner = () => {
+const Banner = () => {
   return (
-    <>
-    <div className="main-banner">
-    <div className="banner-info" >
-       <h4>Welcome to innovAtiveTech</h4>
-       <h1> IT <span>Solution Company </span><br/> & Digital Agency</h1>
-       <p>We are 100+ professional software engineers with more than 10 years of experience in delivering superior products.</p>
-       <button onClick={() => scrollTo("contact")}>Contact US</button>
-       </div>
-       <div className="banner-pic" >
-    <img src={logo} alt="Logo"/>
-       </div>
+    <div className="banner">
+      <div className="banner-content">
+        <div className="logo-container">
+          <img src={banner} alt="School Logo" className="logo"/>
+        </div>
+        <div className="school-info">
+          <h1>The Smart School</h1>
+          <p>The Hortan Road New YORK</p>
+        </div>
+        <div className="icon-nav">
+        <div className="icons" onClick={() => scrollTo('service')}><SquarePen /></div>
+            <div className="icons" onClick={() => scrollTo('client')}><UsersRound /></div>
+            <div className="icons" onClick={() => scrollTo('contact')}><MapPin /></div>
+            <div className="icons" onClick={() => scrollTo('academics')}><CirclePlay /></div>
+            <div className="icons" onClick={() => scrollTo('contact')}><Globe /></div>
+      
+       
+       
+       
+      
+        </div>
+      </div>
     </div>
-    </>
-  )
-}
+  );
+};
+
 export default Banner;
+
+
+export const scrollTo = (id) => {
+   document.getElementById(id)?.scrollIntoView({
+       behavior: "smooth",
+       block: "start"
+   });
+};

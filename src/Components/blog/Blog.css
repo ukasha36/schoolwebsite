@@ -1,78 +1,77 @@
-/* Blog Section */
-.main-blog {
-    width: 100%;
-    background-color: #eff2f7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Muli', sans-serif;
-    padding: 5rem 0;
-  }
-  
-  .blog-heading {
-    font-size: 2.5rem;
-    color: #000;
-    margin-bottom: 2rem;
-    text-align: center;
-  }
-  
-  .blog-details {
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem; /* Increased gap for better spacing */
-  }
-  
-  .blog-post {
-    width: 30%; /* Adjusted width for three items in a row */
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 10px;
-    overflow: hidden;
-    margin-bottom: 2rem;
-    text-align: center; /* Centered the text */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Added transition for hover effect */
-  }
-  
-  .blog-post:hover {
-    transform: translateY(-5px); /* Slight lift on hover */
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Enhanced shadow on hover */
-  }
-  
-  .blog-post img {
-    width: auto;
+/* Academics Section */
+.main-academics {
+  width: 100%;
+  background-color: #eff2f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Muli', sans-serif;
+  padding: 5rem 0;
+}
+
+.academics-heading {
+  font-size: 2.5rem;
+  color: #000;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.academics-details {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.academics-program {
+  width: 30%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.academics-program:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.academics-program img {
+  width: 378px;
     height: 200px;
-    max-width: 100%; /* Maintain aspect ratio */
+    max-width: 100%;
     object-fit: cover;
-  }
-  
-  .blog-post h3 {
-    color: #c31229;
-    font-weight: 600;
-    margin: 1rem;
-  }
-  
-  .blog-post p {
-    color: #616161;
-    margin: 0 1rem 1rem;
-  }
-  
-  /* Responsive Styles */
-  @media only screen and (max-width: 690px) {
-    .blog-details {
+}
+
+.academics-program h3 {
+  color: aqua;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+.academics-program p {
+  color: #616161;
+  margin: 0 1rem 1rem;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 690px) {
+  .academics-details {
       flex-direction: column;
       align-items: center;
-    }
-  
-    .blog-post {
+  }
+
+  .academics-program {
       width: 100%;
-    }
   }
-  
-  @media only screen and (max-width: 990px) and (min-width: 690px) {
-    .blog-post {
+}
+
+@media only screen and (max-width: 990px) and (min-width: 690px) {
+  .academics-program {
       width: 48%;
-    }
   }
-  
+}

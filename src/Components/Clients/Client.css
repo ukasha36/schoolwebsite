@@ -25,7 +25,7 @@
 }
 .sec-1 > i{
     color: #fff;
-    background: #c31229;
+    background: aqua;
     border-radius: 100%;
     width: 69px;
     height: 65px;
@@ -78,7 +78,7 @@
     }
     .sec-1 > i {
         color: #fff;
-        background: #c31229;
+        background: aqua;
         border-radius: 100%;
         width: 62px;
         height: 62px;

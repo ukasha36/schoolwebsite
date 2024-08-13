@@ -85,11 +85,11 @@
     border-radius: 7px;
 }
 .services-types-1:hover{
-   border-color: #c31229;
+   border-color: aqua;
 }
 .services-types-1 > i{
     color: #fff;
-    background: #c31229;
+    background: aqua;
     border-radius: 100%;
     width: 69px;
     height: 65px;
@@ -125,11 +125,11 @@
     border-radius: 7px;
 }
 .services-types-2:hover{
-    border-color: #c31229;
+    border-color: aqua;
  }
 .services-types-2 > i{
     color: #fff;
-    background: #c31229;
+    background: aqua;
     border-radius: 100%;
     width: 69px;
     height: 65px;
@@ -165,11 +165,11 @@
     border-radius: 7px;
 }
 .services-types-3:hover{
-    border-color: #c31229;
+    border-color: aqua;
  }
 .services-types-3 > i{
     color: #fff;
-    background: #c31229;
+    background: aqua;
     border-radius: 100%;
     width: 69px;
     height: 65px;
@@ -216,7 +216,7 @@
     }
     .services-types-1 > i {
         color: #fff;
-        background: #c31229;
+        background: aqua;
         border-radius: 100%;
         width: 40px;
     height: 40px;
@@ -241,7 +241,7 @@
     }
     .services-types-2 > i {
         color: #fff;
-        background: #c31229;
+        background: aqua;
         border-radius: 100%;
         width: 40px;
         height: 40px;
@@ -265,7 +265,7 @@
     }
     .services-types-3 > i {
         color: #fff;
-        background: #c31229;
+        background: aqua;
         border-radius: 100%;
         width: 40px;
         height: 40px;
@@ -303,11 +303,11 @@
     border-radius: 7px;
 }
 .services-types2-1:hover{
-    border-color: #c31229;
+    border-color: aqua;
  }
 .services-types2-1 > i{
     color: #fff;
-    background: #c31229;
+    background: aqua;
     border-radius: 100%;
     width: 69px;
     height: 65px;
@@ -343,11 +343,11 @@
     border-radius: 7px;
 }
 .services-types2-2:hover{
-    border-color: #c31229;
+    border-color: aqua;
  }
 .services-types2-2 > i{
     color: #fff;
-    background: #c31229;
+    background: aqua;
     border-radius: 100%;
     width: 69px;
     height: 65px;
@@ -384,7 +384,7 @@
 }
 .services-types2-3 > i{
     color: #fff;
-    background: #c31229;
+    background: aqua;
     border-radius: 100%;
     width: 69px;
     height: 65px;
@@ -394,7 +394,7 @@
     margin-bottom: 0.5rem;
 }
 .services-types2-3:hover{
-    border-color: #c31229;
+    border-color: aqua;
  }
 .services-types2-3 > h4{
  
@@ -427,7 +427,7 @@
     }
     .services-types2-1 > i {
         color: #fff;
-        background: #c31229;
+        background: aqua;
         border-radius: 100%;
         width: 40px;
     height: 40px;
@@ -452,7 +452,7 @@
     }
     .services-types2-2 > i {
         color: #fff;
-        background: #c31229;
+        background: aqua;
         border-radius: 100%;
         width: 40px;
         height: 40px;
@@ -476,7 +476,7 @@
     }
     .services-types2-3 > i {
         color: #fff;
-        background: #c31229;
+        background: aqua;
         border-radius: 100%;
         width: 40px;
     height: 40px;

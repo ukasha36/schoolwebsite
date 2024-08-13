@@ -7,41 +7,37 @@ AOS.init();
 const Services = () => {
   return (
     <>
-      <div className="main-service">
+      <div className="main-service" id='service'>
         <div className="services-info">
-          <h4>OUR SERVICES</h4>
-          <h2>
-            We Provide Awesome <span>Service</span>
-          </h2>
+          <h2>OUR VISION & MISSION</h2>
           <p>
-            We aim to deliver top-notch software solutions and support that meet
-            each client's unique needs and foster long-term success in the
-            digital world.
+          Empowering students with quality education, fostering innovation, and nurturing lifelong learning.
+          
           </p>
+         
         </div>
         </div>
         <div className="services-types">
         <div className="services-1">
         <div className="services-types-1" data-aos="flip-right">
             <i class="fa-solid fa-chart-line"></i>
-            <h4>App Development</h4>
+            <h4>Our Vision</h4>
             <p>
-            We craft data-driven marketing strategies to drive growth and brand success in the digital landscape.
+            envisions quality education as the key resource for national development, delivered to a cross section of our society through sustainable projects.
             </p>
           </div>
           <div className="services-types-2" data-aos="flip-right">
           <i class="fa-solid fa-code"></i>
-            <h4>Web Development</h4>
+            <h4>Academic Excellence</h4>
             <p>
-            Crafting responsive and dynamic
-            websites tailored to your goals.
+            We provide a rigorous curriculum designed to challenge students and foster a deep understanding of essential concepts.
             </p>
           </div>
           <div className="services-types-3" data-aos="flip-right">
           <i class="fa-solid fa-layer-group"></i>
-            <h4>UI & UX Design</h4>
+            <h4>Innovative Learning</h4>
             <p>
-            We craft data-driven marketing strategies to drive growth and brand success in the digital landscape.
+            Our teaching methods integrate the latest technology to enhance the learning experience and prepare students for the future.
             </p>
           </div>
     
@@ -52,24 +48,23 @@ const Services = () => {
         <div className="services-2">
           <div className="services-types2-1" data-aos="flip-right">
             <i class="fa-solid fa-chart-line"></i>
-            <h4>Software Development</h4>
+            <h4>Holistic Development</h4>
             <p>
-              Transforming concepts into captivating
-              visuals through expert graphic design.
+            We focus on the all-around development of students, including emotional, social, and physical well-being.
             </p>
           </div>
           <div className="services-types2-2" data-aos="flip-right">
           <i class="fa-solid fa-code"></i>
-            <h4>Artificial Intelligence</h4>
+            <h4>Global Citizenship</h4>
             <p>
-            We swiftly identify and resolve software issues, optimizing your digital experience
+            We prepare students to be responsible global citizens, fostering an understanding of and respect for diverse cultures and perspectives.
             </p>
           </div>
           <div className="services-types2-3" data-aos="flip-right" >
           <i class="fa-solid fa-layer-group"></i>
-            <h4>SEO </h4>
+            <h4>Innovation and Creativity</h4>
             <p>
-            We create engaging, tailored content to boost your brand's visibility and credibility
+            We encourage innovation and creativity, providing an environment where students can explore new ideas and develop critical thinking skills.
             </p>
           </div>
     

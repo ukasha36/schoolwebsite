@@ -46,7 +46,7 @@
   margin-bottom: 0.4rem;
  }
  .contact-form > form >  input {
-  border-color: #c31229;
+  border-color: aqua;
   font-family: 'Muli', sans-serif;
   width: 60%;
   border-width: 2px; 
@@ -55,7 +55,7 @@
   margin-bottom: 1rem;
  }
  .contact-form > form >   textarea {
-  border-color: #c31229;
+  border-color: aqua;
   border-width: 2px;
   border-radius: 10px;
   padding: 0.3rem 0.6rem;
@@ -70,14 +70,14 @@
     font-weight: 700;
     letter-spacing: .1rem;
     text-transform: uppercase;
-    background-color: #c31229;
+    background-color: aqua;
     color: #fff;
     border: 2px solid transparent;
  }
  .contact-form > form > button:hover
  {
    background-color: #fff;
-   color: #c31229;
+   color: aqua;
    box-shadow: 9px 10px 79px 0px rgba(133,122,122,0.75);
  -webkit-box-shadow: 9px 10px 79px 0px rgba(133,122,122,0.75);
  -moz-box-shadow: 9px 10px 79px 0px rgba(133,122,122,0.75);
@@ -108,7 +108,7 @@
     font-size: 2rem;
     background: #fff;
        border-radius: 50%;
-color: #c31229;
+color: aqua;
        padding: 0.8rem 0.8rem 0.8rem 0.8rem;
     border: 2px solid  rgba(128, 128, 128, 0.212);
  }
@@ -129,7 +129,7 @@ color: #c31229;
     font-size: 2rem;
     background: #fff;
        border-radius: 50%;
-       color: #c31229;
+       color: aqua;
        padding: 0.8rem 0.8rem 0.8rem 0.8rem;
     border: 2px solid  rgba(128, 128, 128, 0.212);
  }
@@ -157,7 +157,7 @@ color: #c31229;
     text-align: center;
     font-size: 2rem;
     background: #fff;
-    color: #c31229;
+    color: aqua;
        border-radius: 50%;
        padding: 0.8rem 0.8rem 0.8rem 0.8rem;
     border: 2px solid  rgba(128, 128, 128, 0.212);
@@ -171,7 +171,7 @@ color: #c31229;
    color: black;
  }
  .email > a:hover{
-   color:#c31229;
+   color:aqua;
  }
  @media only screen and (max-width:590px){
 
@@ -204,7 +204,7 @@ color: #c31229;
         font-weight: 700;
         letter-spacing: .1rem;
         text-transform: uppercase;
-        background-color: #c31229;
+        background-color: aqua;
         color: #fff;
         border: 2px solid transparent;
     }
@@ -216,7 +216,7 @@ color: #c31229;
         align-items: flex-start;
     }
     .contact-form > form > input {
-        border-color: #c31229;
+        border-color: aqua;
         width: 90%;
         border-width: 1px;
         border-radius: 20px;
@@ -265,7 +265,7 @@ color: #c31229;
         font-weight: 700;
         letter-spacing: .1rem;
         text-transform: uppercase;
-        background-color: #c31229;
+        background-color: aqua;
         color: #fff;
         border: 2px solid transparent;
     }

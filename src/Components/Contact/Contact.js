@@ -52,7 +52,7 @@ const Contact = () => {
 
   return (
     <>
-      <div className="contact-main">
+      <div className="contact-main" id='contact'>
         <div className="contact-title">
           <h2>
             <i className="fa-regular fa-address-card"></i>CONTACT US

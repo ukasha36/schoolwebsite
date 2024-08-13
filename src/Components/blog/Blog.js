@@ -1,44 +1,44 @@
 import React from "react";
 import "./Blog.css";
-import img1 from "./img1.webp";
-import img2 from "./img2.webp";
-import software from "./software.png";
+import scienceImage from "./science.jpeg";
+import artsImage from "./arts.png";
+import commerceImage from "./commerce.png";
 
-const Blog = () => {
+const Academics = () => {
   return (
-    <section id="blog" className="main-blog">
-      <h2 className="blog-heading">Featured Blogs</h2>
-      <div className="blog-details">
-        <div className="blog-post">
-          <img src={img1} alt="Blog Post 1" />
-          <h3>Build A Custom Pagination Component In Reactjs From Scratch</h3>
+    <section id="academics" className="main-academics"  >
+      <h2 className="academics-heading">Our Academic Programs</h2>
+      <div className="academics-details">
+        <div className="academics-program">
+          <img src={scienceImage} alt="Science Program" />
+          <h3>Science Program</h3>
           <p>
-            Learn how to build a custom pagination component in ReactJS from
-            scratch. Follow this step-by-step guide to integrate the Pagination
-            component in your ReactJS project.
+            Our Science Program offers a comprehensive curriculum covering
+            physics, chemistry, biology, and mathematics, preparing students for
+            careers in medicine, engineering, and research.
           </p>
         </div>
-        <div className="blog-post">
-          <img src={img2} alt="Blog Post 2" />
-          <h3>Create a Loading Screen in ReactJS</h3>
+        <div className="academics-program">
+          <img src={artsImage} alt="Arts Program" />
+          <h3>Arts Program</h3>
           <p>
-            Learn how to build a loading screen component in ReactJS from
-            scratch. Follow this step-by-step guide to integrate a loading screen
-            component in your ReactJS project.
+            Explore the rich world of humanities, literature, and social sciences
+            in our Arts Program, designed to develop critical thinking and
+            creative skills.
           </p>
         </div>
-        <div className="blog-post">
-          <img src={software} alt="Blog Post 2" />
-          <h3>Tips for choosing the right software for your needs</h3>
+        <div className="academics-program">
+          <img src={commerceImage} alt="Commerce Program" />
+          <h3>Commerce Program</h3>
           <p>
-          Learn how to choose the right software for your business needs and avoid making costly mistakes.
-          Hear what your customers have to say about your software and how it has helped them.
+            Our Commerce Program provides in-depth knowledge in business, economics,
+            and accountancy, equipping students for careers in finance and entrepreneurship.
           </p>
         </div>
-        {/* Add more blog posts as needed */}
+        {/* Add more academic programs as needed */}
       </div>
     </section>
   );
 };
 
-export default Blog;
+export default Academics;
